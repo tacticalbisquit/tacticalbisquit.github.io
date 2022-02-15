@@ -1,0 +1,156 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    background-color: black;
+    
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.navBar{
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.navBar nav{
+    display: inline-block;
+}
+
+.navBar a {
+    text-decoration: none;
+    margin: 100px auto;
+   
+}
+
+.navBar h3 {
+    margin: 20px auto;
+}
+
+.homeZone {
+    background: linear-gradient(#000 #00ff00);
+    background-image: url("/Users/brandonpenick/Documents/Website Testing/pexels-markus-spiske-1089438.jpg");
+    position: sticky;
+    height: 250px;
+    top: 0;
+    padding: 150px;
+    z-index: 1;
+    letter-spacing: 2px;
+}
+
+.mainBox {
+    border: 3px dotted greenyellow;
+    padding: 20px
+   
+}
+
+.mainBox h1 {
+    text-align: center;
+    font-kerning: auto;
+}
+
+.mainBox p {
+    text-align: center;
+}
+
+.bisquitZone {
+    background-color: black;
+    display: inline-block;
+    position: sticky;
+    z-index: 2;
+    text-align: justify;
+    height: 500px;
+    padding: 80px;
+}
+
+.bisquitZone ul {
+    
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    margin: 10px auto;
+    
+}
+
+.bisquitZone li {
+    display: inline-block;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background-color: greenyellow;
+    padding: 5px;
+    color: black;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.bisquitZone a {
+    background-color: greenyellow;
+    color: black;
+    text-decoration: none;
+}
+
+.bisquitZone a:hover {
+    background-color: #000;
+    color: greenyellow
+}
+
+.bisquitZone li:hover {
+    background-color: #000;
+}
+
+.bisquitZone video {
+    display: inline-block;
+    margin: 10px auto;
+    align-content: center;
+    
+    
+}
+
+a:hover {
+    color: teal;
+}
+
+.smirkLol {
+    background-image: url("");
+    height: 5000px;
+    position: sticky;
+    z-index: 3;
+   
+}
+
+footer {
+    display: inline-block;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    bottom: 0;
+    height: 50px;
+    vertical-align: middle;
+
+}
+
+footer p {
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 50px;
+    vertical-align: middle;
+}
